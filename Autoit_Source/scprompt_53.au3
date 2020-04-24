@@ -1,18 +1,20 @@
 #Region ;**** Directives created by AutoIt3Wrapper_GUI ****
-#AutoIt3Wrapper_Icon=..\scprompt\logo.ico
-#AutoIt3Wrapper_Outfile=..\scprompt\scprompt.exe
-#AutoIt3Wrapper_UseUpx=n
-#AutoIt3Wrapper_UseX64=n
+#AutoIt3Wrapper_Icon=..\Build\SCPrompt\logo.ico
+#AutoIt3Wrapper_Outfile=..\Build\SCPrompt\scprompt.exe
 #AutoIt3Wrapper_Res_Comment=SCPrompt - Creates reverse VNC connections to a viewer or repeater, using settings in SCPrompt.INI
 #AutoIt3Wrapper_Res_Description=SCPrompt - Creates reverse VNC connections to a viewer or repeater, using settings in SCPrompt.INI
-#AutoIt3Wrapper_Res_Fileversion=2.20.3.53
-#AutoIt3Wrapper_Res_LegalCopyright="© www.securetech.com.au (Secure Technology Group) 2009-2020 (AGPL)"
+#AutoIt3Wrapper_Res_Fileversion=2.20.4.53
+#AutoIt3Wrapper_Res_ProductName=SCPrompt
+#AutoIt3Wrapper_Res_ProductVersion=2.53
+#AutoIt3Wrapper_Res_CompanyName=Secure Technology Group
+#AutoIt3Wrapper_Res_LegalCopyright="Â© www.securetech.com.au (Secure Technology Group) 2009-2020 (LGPL)"
 #AutoIt3Wrapper_Res_SaveSource=y
-#AutoIt3Wrapper_res_requestedExecutionLevel=asInvoker
-#AutoIt3Wrapper_Res_Icon_Add=..\scprompt\icon1.ico
-#AutoIt3Wrapper_Res_Icon_Add=..\scprompt\icon2.ico
+#AutoIt3Wrapper_Res_requestedExecutionLevel=asInvoker
+#AutoIt3Wrapper_Res_Icon_Add=..\Build\SCPrompt\icon1.ico
+#AutoIt3Wrapper_Res_Icon_Add=..\Build\SCPrompt\icon2.ico
 #AutoIt3Wrapper_Run_Tidy=y
 #EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
+; version - major.year.month.minor, so 2.20.4.53 was built April 2020 from source 53.
 #Region Compiler Options ;**** Directives created by AutoIt3Wrapper_GUI ****
 Global $DebugLevel = "9", $DEBUGLOG = 0, $return, $AppINI = @ScriptDir & "\scprompt.ini", $TimeStampLoop[3], $INI_RemoteINI
 Global $V2M_EventDisplay, $V2M_VNC_UVNC = "winvnc.exe", $V2M_VNC_VWR, $V2M_VNC_SVR, $V2M_VNC_SC
@@ -659,7 +661,7 @@ GUIDelete()
 ;===============================================================================
 Func V2MAboutBox()
 	$V2M_EventDisplay = V2M_EventLog("FUNC - V2MAboutBox()", $V2M_EventDisplay, "8")
-	MsgBox(0, "About " & _RSC_INIReadSection_key($INI_CommonSection, "APPName", "SCPrompt 2011"), _RSC_INIReadSection_key($INI_CommonSection, "APPName", "SCPrompt 2011") & @CRLF & "Creates a connection to a Listening VNC viewer / UVNC repeater" & @CRLF & @CRLF & "visit: www.vnc2me.org/scprompt/ for further details" & @CRLF & @CRLF & "© 2009-2011 www.securetech.com.au (Secure Technology Group).")
+	MsgBox(0, "About " & _RSC_INIReadSection_key($INI_CommonSection, "APPName", "SCPrompt 2011"), _RSC_INIReadSection_key($INI_CommonSection, "APPName", "SCPrompt 2011") & @CRLF & "Creates a connection to a Listening VNC viewer / UVNC repeater" & @CRLF & @CRLF & "visit: www.vnc2me.org/scprompt/ for further details" & @CRLF & @CRLF & "Â© 2009-2011 www.securetech.com.au (Secure Technology Group).")
 EndFunc   ;==>V2MAboutBox
 
 ;
