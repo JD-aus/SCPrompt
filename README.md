@@ -4,6 +4,7 @@ An Autoit Application which opens a reverse VNC connection from a UVNC server to
 SCPrompt allows for customisation of the GUI to suit your business needs.
 
 [SCPrompt on UVNC forums](https://forum.ultravnc.net/viewtopic.php?f=15&t=14809)
+<<<<<<< HEAD
 [SCPrompt Blog](https://www.securetech.com.au/projects/scprompt)
 
 
@@ -215,3 +216,7 @@ JDaus
 	-	Changed - UsePredefined INI setting is now ignored (GUIType=Manual now replaces UsePredefined=0)
 	-	Fixed - error with $INI_Use_Existing_sc_prompt=0, was not using -sc_prompt for any service mode, even when we installed the service ourselves
 
+=======
+
+[SCPrompt Creators Blog](https://www.securetech.com.au/projects/scprompt)
+>>>>>>> 5d4fd044453d88d0217899eb3aaf7f9c88fa33ac
