@@ -75,7 +75,7 @@ V2M_EventLog(' ', "", "0")
 V2M_EventLog('App Launch', "", "0")
 V2M_EventLog(' ', "", "0")
 
-#include "..\_v2m_common_funcs.au3"
+#include "_v2m_common_funcs.au3"
 _Language()
 $TimeStampLoop[1] = _NowCalc()
 _StopKnownVNCFlavour($AppINI, $V2M_VNC_UVNC, 0)
