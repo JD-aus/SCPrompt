@@ -3,3 +3,5 @@ An Autoit Application which opens a reverse VNC connection from a UVNC server to
 
 SCPrompt allows for customisation of the GUI to suit your business needs.
 
+[SCPrompt on UVNC forums](https://forum.ultravnc.net/viewtopic.php?f=15&t=14809)
+[SCPrompt Blog](https://www.securetech.com.au/projects/scprompt)
